@@ -25,9 +25,6 @@ public class Tavolo implements Comparable<Tavolo> {
 		return èPrenotato;
 	}
 
-	public void setNumeroPostiASedere(int numeroPostiASedere) {
-		this.numeroPostiASedere = numeroPostiASedere;
-	}
 
 	@Override
 	public int compareTo(Tavolo o) {
